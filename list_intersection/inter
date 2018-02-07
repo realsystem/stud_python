@@ -1,0 +1,7 @@
+for ai in $(cat a); do
+ for bi in $(cat b); do
+  if [ "$ai" == "$bi" ]; then
+   echo $ai
+  fi
+ done
+done
